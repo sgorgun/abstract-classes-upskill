@@ -62,7 +62,7 @@ The task requires .NET 6 SDK installed.
    | ------ | ------ |
    | 0 | extra $0.50 |
    | 2 | $0.50 discount |
-   | 3 and more | $1.50 discount |
+   | 3 and more | $1.00 discount |
 
    **Bus**
 
