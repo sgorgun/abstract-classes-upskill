@@ -17,11 +17,11 @@ The task requires .NET 6 SDK installed.
    <details>
    <summary>
 
-   The basic toll calculations
+   The basic toll calculations.
 
    </summary>
    
-   The most basic toll calculation relies only on the vehicle type.    
+   The base toll calculations relies only on the vehicle type.    
 
    _For example:_
 
@@ -37,18 +37,16 @@ The task requires .NET 6 SDK installed.
    <details>
    <summary>
 
-   Adding occupancy pricing
+   Adding occupancy pricing.
 
    </summary>
 
-   The toll amount adjusting for the vehicles to travel depeneds on the passenger count. The movement of vehicles with maximum capacity is encouraged.       
-      - сars and taxis without passengers pay some amount extra;   
-      - for cars and taxis, the discount depends on the number of passengers;    
+   The toll adjust for the vehicles to travel depeneds on the passenger count. The movement of vehicles with maximum capacity is encouraged.       
+      - taxis without passengers pay some amount extra;   
+      - for taxis, the discount depends on the number of passengers;    
       - for buses, the amount of the discount depends on the percentage of filling.      
 
-   _For tests:_
-
-   **Car and Taxi**
+   **Taxi**
 
    | Passengers count | Extra/discount |
    | ------ | ------ |
@@ -63,9 +61,9 @@ The task requires .NET 6 SDK installed.
    |  less than 50% | extra $2.00 |
    | more than 90% | $1.00 discount |
    
-   The toll amount adjusting for the delivery trucks depends on its weight: for trucks over a certain weight, an additional fee is charged, otherwise a discount is provided.
+   The toll adjust for the delivery trucks depends on its weight category: for trucks over a certain weight, an additional fee is charged, otherwise a discount is provided.
    
-   _For tests:_    
+   _For example:_    
 
    **Truck**
 
@@ -85,7 +83,7 @@ The task requires .NET 6 SDK installed.
    
    Finally, peak hours are added to the pricing. For example, in the morning and evening hours, the tolls are increased. The rule by which the cost is recalculated in this case may depend on the direction of movement (from the city / to the city).
 
-   _For tests_
+   _For example_
 
    |   Day	   |     Time   	| Direction |	Premium |
    |-----------|--------------|-----------|----------|
