@@ -77,7 +77,7 @@ The task requires .NET 6 SDK installed.
    <details>
    <summary>
 
-   Adding peak pricing
+   Adding peak pricing.
 
    </summary>
    
