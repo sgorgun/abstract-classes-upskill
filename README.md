@@ -63,8 +63,6 @@ The task requires .NET 6 SDK installed.
    
    The toll adjust for the delivery trucks depends on its weight category: for trucks over a certain weight, an additional fee is charged, otherwise a discount is provided.
    
-   _For example:_    
-
    **Truck**
 
    | Weight class | Extra or discount |
@@ -82,8 +80,6 @@ The task requires .NET 6 SDK installed.
    </summary>
    
    Finally, peak hours are added to the pricing. For example, in the morning and evening hours, the tolls are increased. The rule by which the cost is recalculated in this case may depend on the direction of movement (from the city / to the city).
-
-   _For example_
 
    |   Day	   |     Time   	| Direction |	Premium |
    |-----------|--------------|-----------|----------|
