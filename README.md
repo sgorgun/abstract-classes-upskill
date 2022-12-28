@@ -1,6 +1,6 @@
 # Vehicle Calculate Toll System 
 
-Intermediate level task for practicing pattern matching, object-oriented programming, abstract classes, Tamplate Method pattern.
+Intermediate level task for practicing pattern matching, object-oriented programming, abstract classes, Template Method pattern.
 
 Estimated time to complete the task - 2h.
 
@@ -8,16 +8,7 @@ The task requires .NET 6 SDK installed.
 
 ## Task Details
 
-- Complete [Tutorial: Use pattern matching to build type-driven and data-driven algorithms](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/pattern-matching)
-
-- Answer the following questions:
-   - What are the main pattern matching scenarios?
-   - Why this approach is used to solve the problem above?
-
-   _Discuss it with your trainer, if you work in a regular group._
-
-- Using the classic object-oriented design solve the following problem:
-   Create the types that prepresent vehicle types `Car`, `Taxi`, `Bus`, `DeliveryTruck` for calculate tolls to manage peak time traffic. Pricing depends on     
+- Create the types that prepresent vehicle types `Vehicle`, `Taxi`, `Bus`, `DeliveryTruck` for calculate tolls to manage peak time traffic. Pricing depends on     
    - vehicle type;
    - the number of occupants in the vehicle;
    - on the time and the day of the week.
@@ -31,7 +22,7 @@ The task requires .NET 6 SDK installed.
    
    The most basic toll calculation relies only on the vehicle type.    
 
-   _For tests:_
+   _For example:_
 
    | Vehicle | Basic toll |
    | ------ | ------ |
