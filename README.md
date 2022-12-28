@@ -1,6 +1,6 @@
 # Vehicle Calculate Toll System 
 
-Intermediate level task for practicing pattern matching, object-oriented programming, abstract classes.
+Intermediate level task for practicing pattern matching, object-oriented programming, abstract classes, Tamplate Method pattern.
 
 Estimated time to complete the task - 2h.
 
