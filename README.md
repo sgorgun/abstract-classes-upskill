@@ -8,10 +8,11 @@ The task requires .NET 6 SDK installed.
 
 ## Task Details
 
-- Create the types that prepresent vehicle types `Vehicle`, `Taxi`, `Bus`, `DeliveryTruck` for calculate tolls to manage peak time traffic. Pricing depends on     
-   - vehicle type;
-   - the number of occupants in the vehicle;
-   - on the time and the day of the week.
+- Implement a vehicle type hierarchy for pricing and toll calculation to manage vehicle traffic in a major metropolitan area during peak hours.
+- Pricing depends on     
+   - the vehicle type - base toll;
+   - the number of passengers for the passenger vehicles or weight category for trucks; 
+   - the time and the week day of the traffic.
 
    <details>
    <summary>
