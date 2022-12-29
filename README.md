@@ -1,14 +1,15 @@
 # Vehicle Calculate Toll System 
 
-Intermediate level task for practicing pattern matching, object-oriented programming, abstract classes, Template Method pattern.
+Intermediate level task for practicing pattern matching, object-oriented programming, abstract classes, [Template Method pattern](https://refactoring.guru/design-patterns/template-method).
 
-Estimated time to complete the task - 2h.
+Estimated time to complete the task - 1h.
 
 The task requires .NET 6 SDK installed.
 
 ## Task Details
 
 - Implement a vehicle type hierarchy for pricing and toll calculation to manage vehicle traffic in a major metropolitan area during peak hours.
+   ![](/Vehicle%20hierarchy.png)
 - Pricing depends on     
    - the vehicle type;
    - the number of passengers for the passenger vehicles or weight category for trucks; 
