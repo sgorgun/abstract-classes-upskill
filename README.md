@@ -9,7 +9,7 @@ The task requires .NET 6 SDK installed.
 ## Task Details
 
 - Implement a vehicle type hierarchy for pricing and toll calculation to manage vehicle traffic in a major metropolitan area during peak hours.
-   ![](/Vehicle%20hierarchy.png)
+   ![](/Vehicle_hierarchy.png)
 - Pricing depends on     
    - the vehicle type;
    - the number of passengers for the passenger vehicles or weight category for trucks; 
